@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "TanjirVise",
+    "slug": "tanjirvise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3c9de3cc-d55e-4c63-bad8-d8d6e672c0e2"
+      }
+    },
+    "owner": "nela.mii",
+    "plugins": [
+      "expo-font"
+    ],
+    "newArchEnabled": true
+  }
+}
